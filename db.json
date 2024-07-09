@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introduzione a Next.js 14",
+      "content": "<p>Next.js 14 è l'ultima versione del popolare framework React...</p>",
+      "slug": "introduzione-nextjs-14",
+      "excerpt": "Scopri le nuove funzionalità di Next.js 14 e come possono migliorare il tuo sviluppo web."
+    },
+    {
+      "id": "2",
+      "title": "Tailwind CSS: Styling Rapido ed Efficiente",
+      "content": "<p>Tailwind CSS è un framework CSS utility-first che sta rivoluzionando il modo in cui scriviamo CSS...</p>",
+      "slug": "tailwind-css-styling-rapido",
+      "excerpt": "Esplora come Tailwind CSS può accelerare il tuo processo di sviluppo front-end."
+    },
+    {
+      "id": "3",
+      "title": "Come Creare un Blog con Next.js e MDX",
+      "content": "<p>MDX è un formato che ti permette di scrivere contenuti in Markdown e JSX...</p>",
+      "slug": "creare-blog-nextjs-mdx",
+      "excerpt": "Scopri come creare un blog con Next.js e MDX in pochi passaggi."
+    },
+    {
+      "id": "4",
+      "title": "Introduzione a React Query",
+      "content": "<p>React Query è una libreria che ti permette di gestire lo stato dei dati in React...</p>",
+      "slug": "introduzione-react-query",
+      "excerpt": "Scopri come React Query può semplificare la gestione dello stato dei dati in React."
+    },
+    {
+      "id": "5",
+      "title": "Come Creare un Sito Statico con Next.js",
+      "content": "<p>Next.js è un framework React che ti permette di creare siti web statici in modo semplice e veloce...</p>",
+      "slug": "creare-sito-statico-nextjs",
+      "excerpt": "Scopri come creare un sito statico con Next.js in pochi passaggi."
+    },
+    {
+      "id": "6",
+      "title": "Introduzione a Vite",
+      "content": "<p>Vite è un build tool veloce per lo sviluppo di applicazioni web moderne...</p>",
+      "slug": "introduzione-vite",
+      "excerpt": "Scopri come Vite può accelerare il tuo processo di sviluppo front-end."
+    },
+    {
+      "id": "7",
+      "title": "Come Creare un Sito Web con Vite e React",
+      "content": "<p>Vite è un build tool veloce per lo sviluppo di applicazioni web moderne...</p>",
+      "slug": "creare-sito-web-vite-react",
+      "excerpt": "Scopri come creare un sito web con Vite e React in pochi passaggi."
+    },
+    {
+      "id": "1720507660831",
+      "title": "Nuovo Post",
+      "content": "Cose che riguardano un nuovo post",
+      "excerpt": "Un nuovo post",
+      "slug": "nuovo-post"
+    },
+    {
+      "title": "Un altro post",
+      "content": "Cose riguardanti un altro post ancora",
+      "excerpt": "Ancora un altro post",
+      "slug": "un-altro-post",
+      "id": "1720509969338"
+    },
+    {
+      "id": "ddb4",
+      "title": "Un ultimo post",
+      "content": "Cose riguardanti un ultimo post",
+      "excerpt": "Un post alla fine"
+    }
+  ]
+}
