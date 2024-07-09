@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ListItem } from "./ListItem"
 
 export default function Header() {
   return (
@@ -8,30 +9,9 @@ export default function Header() {
           Next.js Blog
         </Link>
         <ul className="flex space-x-4">
-          <li>
-            <Link
-              href="/"
-              className="text-white hover:text-pink-200 transition duration-300"
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/blog"
-              className="text-white hover:text-pink-200 transition duration-300"
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/new-post"
-              className="text-white hover:text-pink-200 transition duration-300"
-            >
-              Nuovo Post
-            </Link>
-          </li>
+          <ListItem path="/" text="Home" />
+          <ListItem path="/blog" text="Blog" />
+          <ListItem path="/new-post" text="Nuovo Post" />
         </ul>
       </nav>
     </header>
