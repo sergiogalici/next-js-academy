@@ -6,6 +6,7 @@ type FormElementProps = {
   register: UseFormRegister<PostInput>
   inputType: "text" | "textarea"
   errors: FieldErrors<PostInput>
+  title: string
 }
 
 export const FormElement = ({
@@ -13,10 +14,11 @@ export const FormElement = ({
   register,
   inputType,
   errors,
+  title,
 }: FormElementProps) => (
   <div className="mb-4">
     <label htmlFor={label} className="block text-gray-700 font-bold mb-2">
-      {label}
+      {title}
     </label>
     {inputType === "text" ? (
       <input
